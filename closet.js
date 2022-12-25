@@ -4,7 +4,7 @@ function preload(){
     closetimg=loadImage('closet.jpg');
 }
 function setup(){
-    canvas=createCanvas(640,420);
+    canvas=createCanvas(600,400);
     canvas.center();
     objectDetector=ml5.objectDetector('cocossd',modelLoaded);
     document.getElementById("status").innerHTML="Status:Detecting Objects";
